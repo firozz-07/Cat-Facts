@@ -112,3 +112,76 @@ scale: 1.2;
     width: 800px;
     height: 100px;
 }
+@media (max-width: 600px){
+    body{
+        padding: 16px;
+        box-sizing: border-box;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 2rem;
+        line-height: 1.2;
+        color:#F865B0;
+    }
+
+    .subtitle{
+        margin-bottom: 24px;
+        font-size: 20px;
+        line-height: 1.3;
+    }
+
+    .outer-div{
+        width: 100%;
+        height: auto;
+        min-height: 350px;
+        padding: 16px;
+        box-sizing: border-box;
+    }
+
+    .msg-div{
+        width: 100%;
+        min-width: 0;
+        min-height: 100px;
+        box-sizing: border-box;
+        font-size: 20px;
+        line-height: 1.4;
+        overflow-wrap: anywhere;
+    }
+
+    .btn-div{
+        width: 100%;
+        margin-top: 24px;
+        gap: 16px;
+        flex-direction: column;
+    }
+
+    .btn-div button{
+        width: min(100%, 280px);
+        font-size: 18px;
+    }
+
+    .box{
+        width: 100%;
+        height: auto;
+        margin-top: 24px;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .photo,
+    .photo2{
+        width: 72px;
+        height: 72px;
+        flex-shrink: 0;
+    }
+
+    .copymsg{
+        margin: 20px auto;
+        text-align: center;
+        font-size: 16px;
+    }
+}
