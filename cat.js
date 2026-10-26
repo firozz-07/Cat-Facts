@@ -26,7 +26,6 @@ function copyfact (){
     }
     }
 
-
 copy.addEventListener("click",copyfact);
 
 let coco=document.querySelector(".photo");
